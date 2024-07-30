@@ -19,6 +19,7 @@ func main() {
 
 	var people []person
 	err := json.Unmarshal(bs, &people)
+
 	if err != nil {
 		fmt.Println(err)
 	}
