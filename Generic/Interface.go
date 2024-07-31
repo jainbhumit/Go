@@ -24,8 +24,10 @@ func addT[T myType](a, b T) T {
 type myalias int
 
 func main() {
+	fmt.Println("Enter the no : ")
+
 	fmt.Println(addT(5, 8))
-	fmt.Println(addT(5.6, 6.7))
+	fmt.Println(addT(6.7, 8.5))
 
 	// by using ~ in interface before the type helps to identify all the same type alias
 
